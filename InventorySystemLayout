@@ -1,0 +1,11 @@
+[Inventory]
+  [Players]
+    (Tech.Medic)
+      <Health>
+      <Money>
+      [Inventory]
+        <Great.Sword>
+        <Long.Sword>
+    (Guest)
+      <Health>
+      <Money>
