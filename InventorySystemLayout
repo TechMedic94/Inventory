@@ -1,11 +1,11 @@
-[Inventory]
-  [Players]
-    (Tech.Medic)
-      <Health>
-      <Money>
-      [Inventory]
-        <Great.Sword>
-        <Long.Sword>
-    (Guest)
-      <Health>
-      <Money>
+[Inventory]//Container
+  [Players]//Container
+    (Tech.Medic)//Item
+      <Health>//Item stat
+      <Money>//Item stat
+      [Inventory]//Container
+        <Great.Sword>//Item stat
+        <Long.Sword>//Item stat
+    (Guest)//Item
+      <Health>//Item stat
+      <Money>//Item stat
