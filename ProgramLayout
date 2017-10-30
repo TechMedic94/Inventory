@@ -1,0 +1,65 @@
+start()
+{
+	-Do file checks to see if all files still exist
+	-Read "start.txt" for all start-up commands.
+	-Process all start-up commands.
+	-Test to make sure all start commands don't brake the program.
+	-End start method by running the Run method.
+}
+
+run()
+{
+	-Load currne Menu
+	-Load possible commands for currnet menu,
+	-Waint/Process commands.
+	-Switch Menus baised on command input.
+}
+
+findCommand()
+{
+	-Finds all commands within the string given.
+}
+
+processCommand(std::string cmd, std::string val)
+{
+	-Takes in strings and processes the commands with the currnet values.
+	-Once command is found it is processed then the
+	-Command processor lokks for next comand
+}
+
+MoveLoc()
+{
+	-Moves Inventory Directories
+	-Once moved, program will leave a bread crum so other programs can update where
+	-to find the Directoies
+	-End by checking if all files transfered
+	-Delete old files and create new bread crum.
+	-Connect all files that use Directory
+}
+
+DeleteLoc()
+{
+	-Deletes Directories and Items within current Directory
+	-Once Dir/Items are deleted, bread crums go with it.
+	-Try to repair any corruption due to non-existing files.
+}
+
+Login()
+{
+	-Ask for users name to sign in
+	-Check to see if Accout exist.
+	-If Account does exist, try to login
+	-Prompt user for password tied to account
+	-If password matches, sign user into program under Users name.
+	-Next start the load progile Method.
+}
+
+LoadAccount()
+{
+	-Check to see if any users are already logged in.
+	-Load all data from the current user that is logged into the program.
+	-This will require a password which would have already been entered by
+	-user when they logged in the first time.
+	-All profiles will have small Inventories attached to Accounts.
+	-Finish by Loading up users Main Menu.//Different for all users.
+}
