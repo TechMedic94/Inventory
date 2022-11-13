@@ -1,29 +1,27 @@
-#include <iostream>
-#include <vector>
+#include "Border.h"
+#include "FileManager.h"
+#include "Stock.h"
 
-class Item;
+int main() {
+  std::string test;
+  Border b;
+  std::cout << b.getBorderChar(1101) << std::endl;
+  // FileManager fm;
+  // fm.setFName("border");
+  // fm.read();
+  /*Stock stock;
+  std::cout << "[TechMedics Inventory System]\n\n";
+  stock.addItem("SpongeBob", 1);
+  stock.addItem("Patrick", 1);
+  stock.addItem("Sexy Print", 1);
+  stock.addItem("Demon", 1);
+  stock.addItem("Dice", 1);
+  stock.addItem("Jack", 1);
 
-class Item {
-private:
-  int QTY = 0;
-  std::string itemName = "";
-  std::string itemInfo = "";
-
-public:
-  Item();
-  void setQTY(int);
-  void adjQTY(int);
-  int getQTY();
-
-  void setItemName();
-  void getItemName();
-
-  void setItemInfo();
-  void getItemInfo();
-};
-
-Item::Item() {}
-
-void Item::setQTY(int qty) { QTY = qty; }
-
-int main() { std::cout << "[TechMedics Inventory System]\n\n"; }
+  Item item;
+  for (int i = 0; i < stock.getInventory().size(); i++) {
+    item = stock.getInventory().at(i);
+  }
+*/
+  return 0;
+}

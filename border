@@ -1,0 +1,17 @@
+╔:top_left
+╗:top_right
+╚:bottom_left
+╝:bottom_right
+═:horizontal
+║:vertical
+╬:intersect_middle
+╦:intersect_top
+╩:intersect_bottom
+╣:intersect_right
+╠:intersect_left
+Goal:
+╔═════════════╗
+║  Main menu  ║
+╠═════════════╣
+║1: Spongebob ║
+╚═════════════╝
